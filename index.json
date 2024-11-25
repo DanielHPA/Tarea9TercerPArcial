@@ -1,27 +1,123 @@
 {
-    "tabla": "articulos",
-    "columnas": ["id", "nombre", "descripcion", "precio", "cantidad_en_stock"],
-    "datos": [
-      ["1", "Laptop Gaming", "Laptop de alta gama para juegos", "1200.99", "10"],
-      ["2", "Smartphone XPro", "Smartphone con camara de 108 MP", "999.99", "25"],
-      ["3", "Auriculares Bluetooth", "Auriculares inalambricos con cancelación de ruido", "120.50", "50"],
-      ["4", "Reloj inteligente", "Reloj con monitoreo de actividad y notificaciones", "150.00", "100"],
-      ["5", "Cámara DSLR", "Camara profesional con lente intercambiable", "850.75", "15"],
-      ["6", "Teclado mecánico", "Teclado con switches mecanicos para gaming", "90.99", "40"],
-      ["7", "Silla ergonómica", "Silla cómoda para largas horas de trabajo o estudio", "220.45", "30"],
-      ["8", "Mouse óptico", "Mouse con sensor optico de alta precisión", "45.60", "60"],
-      ["9", "Monitor 4K", "Monitor con resolución 4K y pantalla curva", "350.00", "20"],
-      ["10", "Cargador solar", "Cargador portatil a base de energia solar", "25.99", "80"],
-      ["11", "Tablet 10\"", "Tablet de 10 pulgadas con Android 11", "200.00", "35"],
-      ["12", "Bocina Bluetooth", "Bocina portátil resistente al agua", "55.25", "120"],
-      ["13", "Disco duro externo 1TB", "Disco duro externo para almacenar grandes archivos", "60.00", "50"],
-      ["14", "Cámara de seguridad", "Cámara de vigilancia inalambrica con visión nocturna", "70.99", "10"],
-      ["15", "Ropa deportiva", "Conjunto de ropa deportiva para entrenamientos", "35.50", "200"],
-      ["16", "Mochila para laptop", "Mochila con compartimiento para laptop de hasta 15\"", "40.00", "75"],
-      ["17", "Teclado para tablet", "Teclado Bluetooth para tablet", "60.00", "45"],
-      ["18", "Adaptador HDMI", "Adaptador para conectar dispositivos a TV o monitor", "15.99", "150"],
-      ["19", "Batería externa", "Batería portátil para cargar dispositivos móviles", "40.75", "60"],
-      ["20", "Cámara GoPro", "Cámara deportiva GoPro resistente al agua y golpes", "399.00", "25"]
-    ]
+    "columna_1": {
+      "nombre": "Laptop Gaming",
+      "descripcion": "Laptop de alta gama para juegos",
+      "precio": 1200.99,
+      "cantidad_en_stock": 10
+    },
+    "columna_2": {
+      "nombre": "Smartphone XPro",
+      "descripcion": "Smartphone con camara de 108 MP",
+      "precio": 999.99,
+      "cantidad_en_stock": 25
+    },
+    "columna_3": {
+      "nombre": "Auriculares Bluetooth",
+      "descripcion": "Auriculares inalambricos con cancelación de ruido",
+      "precio": 120.50,
+      "cantidad_en_stock": 50
+    },
+    "columna_4": {
+      "nombre": "Reloj inteligente",
+      "descripcion": "Reloj con monitoreo de actividad y notificaciones",
+      "precio": 150.00,
+      "cantidad_en_stock": 100
+    },
+    "columna_5": {
+      "nombre": "Cámara DSLR",
+      "descripcion": "Camara profesional con lente intercambiable",
+      "precio": 850.75,
+      "cantidad_en_stock": 15
+    },
+    "columna_6": {
+      "nombre": "Teclado mecánico",
+      "descripcion": "Teclado con switches mecanicos para gaming",
+      "precio": 90.99,
+      "cantidad_en_stock": 40
+    },
+    "columna_7": {
+      "nombre": "Silla ergonómica",
+      "descripcion": "Silla cómoda para largas horas de trabajo o estudio",
+      "precio": 220.45,
+      "cantidad_en_stock": 30
+    },
+    "columna_8": {
+      "nombre": "Mouse óptico",
+      "descripcion": "Mouse con sensor optico de alta precisión",
+      "precio": 45.60,
+      "cantidad_en_stock": 60
+    },
+    "columna_9": {
+      "nombre": "Monitor 4K",
+      "descripcion": "Monitor con resolución 4K y pantalla curva",
+      "precio": 350.00,
+      "cantidad_en_stock": 20
+    },
+    "columna_10": {
+      "nombre": "Cargador solar",
+      "descripcion": "Cargador portatil a base de energia solar",
+      "precio": 25.99,
+      "cantidad_en_stock": 80
+    },
+    "columna_11": {
+      "nombre": "Tablet 10\"",
+      "descripcion": "Tablet de 10 pulgadas con Android 11",
+      "precio": 200.00,
+      "cantidad_en_stock": 35
+    },
+    "columna_12": {
+      "nombre": "Bocina Bluetooth",
+      "descripcion": "Bocina portátil resistente al agua",
+      "precio": 55.25,
+      "cantidad_en_stock": 120
+    },
+    "columna_13": {
+      "nombre": "Disco duro externo 1TB",
+      "descripcion": "Disco duro externo para almacenar grandes archivos",
+      "precio": 60.00,
+      "cantidad_en_stock": 50
+    },
+    "columna_14": {
+      "nombre": "Cámara de seguridad",
+      "descripcion": "Cámara de vigilancia inalambrica con visión nocturna",
+      "precio": 70.99,
+      "cantidad_en_stock": 10
+    },
+    "columna_15": {
+      "nombre": "Ropa deportiva",
+      "descripcion": "Conjunto de ropa deportiva para entrenamientos",
+      "precio": 35.50,
+      "cantidad_en_stock": 200
+    },
+    "columna_16": {
+      "nombre": "Mochila para laptop",
+      "descripcion": "Mochila con compartimiento para laptop de hasta 15\"",
+      "precio": 40.00,
+      "cantidad_en_stock": 75
+    },
+    "columna_17": {
+      "nombre": "Teclado para tablet",
+      "descripcion": "Teclado Bluetooth para tablet",
+      "precio": 60.00,
+      "cantidad_en_stock": 45
+    },
+    "columna_18": {
+      "nombre": "Adaptador HDMI",
+      "descripcion": "Adaptador para conectar dispositivos a TV o monitor",
+      "precio": 15.99,
+      "cantidad_en_stock": 150
+    },
+    "columna_19": {
+      "nombre": "Batería externa",
+      "descripcion": "Batería portátil para cargar dispositivos móviles",
+      "precio": 40.75,
+      "cantidad_en_stock": 60
+    },
+    "columna_20": {
+      "nombre": "Cámara GoPro",
+      "descripcion": "Cámara deportiva GoPro resistente al agua y golpes",
+      "precio": 399.00,
+      "cantidad_en_stock": 25
+    }
   }
   
